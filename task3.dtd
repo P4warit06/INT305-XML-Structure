@@ -1,0 +1,26 @@
+
+<!ELEMENT bank (customers, accounts) >
+<!-- Customer section -->
+<!ELEMENT customers (customer)* >
+<!ELEMENT customer EMPTY >
+<!ATTLIST customer
+    code ID #REQUIRED
+    name CDATA #REQUIRED
+    address CDATA #IMPLIED >
+
+<!-- Account Section-->
+<!ELEMENT accounts (account+) >
+<!ELEMENT account (transaction*) >
+<!ATTLIST account
+    no ID #REQUIRED
+    type (regular | special) 'regular'
+    owners IDREFS #REQUIRED >
+
+<!--  Transaction Section--> 
+<!ELEMENT transaction EMPTY >
+<!ATTLIST transaction 
+    id ID #REQUIRED
+    date CDATA #REQUIRED
+    type (open | close  | deposit | withdraw | interest) #REQUIRED
+    amount NMTOKEN #REQUIRED
+    >
