@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Task 2: Design an XML document with two namespaces about menu for a restaurant
+  and name the XML document as “restaurant.xml”.
+•	One namespace should be about food menu that may have title, many sizes (e.g., small, medium, large), and prices.
+•	The other namespace should be about ingredients of each menu, which should indicate the amount of that ingredient. -->
+<restaurant>
+    <food xmlns:menu="http://example.com/menu">
+        <menu:title>Pizza</menu:title>
+        <menu:size>
+            <menu:small>8.99</menu:small>
+            <menu:medium>12.99</menu:medium>
+            <menu:large>16.99</menu:large>
+        </menu:size>
+    </food>
+    <ingredients xmlns:ing="http://example.com/ingredients">
+        <ing:item name="Cheese" amount="200g"/>
+        <ing:item name="Tomato Sauce" amount="100g"/>
+        <ing:item name="Pepperoni" amount="50g"/>
+    </ingredients>
+</restaurant>
