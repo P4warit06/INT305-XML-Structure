@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects> 
+    <project num='p192'>
+        <title>XML Fulltext Search </title>
+        <review grade ='S'>Well done </review>
+        <advisor> 
+            <fn> Andy</fn>
+            <ln>Bryan </ln>
+    
+        </advisor>
+        <members>
+            <student code='z11'> 
+                <fn>Carey </fn>
+                <ln> Davis</ln>
+            </student>
+            <student code='z53'> 
+                <fn>Yale </fn>
+                <ln> Zolo</ln>
+            </student>
+        </members>
+    </project>
+    <project num='r283'>
+        <title>Textual Warehouse </title>
+        <review grade ='I'>Still need a lot of works to do  </review>
+        <advisor> 
+            <fn> Oil</fn>
+            <ln> Pines </ln>
+        </advisor>
+            <student code='z14'> 
+                <fn>Edward</fn>
+                <ln> Ferry</ln>
+            </student>
+    </project>      
+</projects>
