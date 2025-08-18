@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects xmlns:proj="http://example.com/projects" 
+          xmlns:st="http://example.com/student"
+          xmlns:adv="http://example.com/advisor">
+           
+    <proj:project num='p192'>
+        <title>XML Fulltext Search </title>
+        <review grade ='S'>Well done </review>
+        <adv:advisor> 
+            <adv:fn> Andy</adv:fn>
+            <adv:ln>Bryan </adv:ln>
+        </adv:advisor>
+        <members>
+            <st:student code='z11'> 
+                <st:fn>Carey </st:fn>
+                <st:ln> Davis</st:ln>
+            </st:student>
+            <st:student code='z53'> 
+                <st:fn>Yale </st:fn>
+                <st:ln> Zolo</st:ln>
+            </st:student>
+        </members>
+    </proj:project>
+    <proj:project num='r283'>
+        <title>Textual Warehouse </title>
+        <review grade ='I'>Still need a lot of works to do  </review>
+        <advisor> 
+            <adv:fn> Oil</adv:fn>
+            <adv:fn> Pines </adv:fn>
+        </advisor>
+    </proj:project>
+</projects>
