@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<projects xmlns:proj="http://example.com/projects" xmlns:rev="http://example.com/reviews"> 
+<projects xmlns:proj="http://example.com/projects" xmlns:p="http://example.com/person"> 
     <proj:project num='p192'>
         <proj:title>XML Fulltext Search </proj:title>
-        <rev:review grade ='S'>Well done </rev:review>
-        <proj:advisor> 
-            <proj:fn> Andy</proj:fn>
-            <proj:ln>Bryan </proj:ln>
-        </proj:advisor>
+        <proj:review grade ='S'>Well done </proj:review>
+        <p:advisor> 
+            <p:fn> Andy</p:fn>
+            <p:ln>Bryan </p:ln>
+        </p:advisor>
         <proj:members>
-            <proj:student code='z11'> 
-                <proj:fn>Carey </proj:fn>
-                <proj:ln> Davis</proj:ln>
-            </proj:student>
-            <proj:student code='z53'> 
-                <proj:fn>Yale </proj:fn>
-                <proj:ln> Zolo</proj:ln>
-            </proj:student>
+            <p:student code='z11'> 
+                <p:fn>Carey </p:fn>
+                <p:ln> Davis</p:ln>
+            </p:student>
+            <p:student code='z53'> 
+                <p:fn>Yale </p:fn>
+                <p:ln> Zolo</p:ln>
+            </p:student>
         </proj:members>
     </proj:project>
     <proj:project num='r283'>
         <proj:title>Textual Warehouse </proj:title>
-        <rev:review grade ='I'>Still need a lot of works to do  </rev:review>
-        <proj:advisor> 
-            <proj:fn> Oil</proj:fn>
-            <proj:ln> Pines </proj:ln>
-        </proj:advisor>
+        <proj:review grade ='I'>Still need a lot of works to do  </proj:review>
+        <p:advisor> 
+            <p:fn> Oil</p:fn>
+            <p:ln> Pines </p:ln>
+        </p:advisor>
     </proj:project>
 </projects>
