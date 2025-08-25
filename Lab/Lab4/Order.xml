@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- the attribute orderid must provided -->
+<shiporder orderid="889923" 
+    xmlns:i="http://www.w3.org/2001/XMLSchema-instance" 
+    i:noNamespaceSchemaLocation="Order.xsd"
+    xmlns="http://example.com/shiporder">
+    <orderperson>John Smith</orderperson>
+    <shipto>
+        <name>Ola Nordmann</name>
+        <address>Langgt 23</address>
+        <city>4000 Stavanger</city>
+        <country>Norway</country>
+    </shipto>
+    <!-- item range 0..unbounded -->
+    <item>
+        <title>Empire Burlesque</title>
+        <!-- note is optional but maxOccurs is 1-->
+        <note>Special Edition</note>
+        <quantity>1</quantity>
+        <price>10.90</price>
+    </item>
+    <item>
+        <title>Hide your heart</title>
+        <quantity>1</quantity>
+        <price>9.90</price>
+    </item>
+</shiporder>
