@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<staffs>
+    <staff staffno="SA9" branchno="B007">
+        <name>
+            <firstname>Mary</firstname>
+            <lastname>Howe</lastname>
+        </name>
+        <position>Assistant</position>
+        <sex>F</sex>
+        <salary>9000</salary>
+    </staff>
+    <staff staffno="SG14" branchno="B003">
+        <name>
+            <firstname>David</firstname>
+            <lastname>Ford</lastname>
+        </name>
+        <position>Supervisor</position>
+        <sex>M</sex>
+        <salary>18000</salary>
+    </staff>
+    <staff staffno="SG37" branchno="B003">
+        <name>
+            <firstname>Ann</firstname>
+            <lastname>Beech</lastname>
+        </name>
+        <position>Assistant</position>
+        <sex>F</sex>
+        <salary>12000</salary>
+    </staff>
+    <staff staffno="SG5" branchno="B003">
+        <name>
+            <firstname>Susan</firstname>
+            <lastname>Brand</lastname>
+        </name>
+        <position>Manager</position>
+        <sex>F</sex>
+        <salary>24000</salary>
+    </staff>
+    <staff staffno="SL21" branchno="B005">
+        <name>
+            <firstname>John</firstname>
+            <lastname>White</lastname>
+        </name>
+        <position>Manager</position>
+        <sex>M</sex>
+        <salary>30000</salary>
+    </staff>
+    <staff staffno="SL41" branchno="B005">
+        <name>
+            <firstname>Julie</firstname>
+            <lastname>Lee</lastname>
+        </name>
+        <position>Assistant</position>
+        <sex>F</sex>
+        <salary>9000</salary>
+    </staff>
+</staffs>
