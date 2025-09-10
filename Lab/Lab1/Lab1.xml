@@ -1,8 +1,7 @@
 <students>
-    <student id="66130500059">
+    <student id="66130500059" gender="Male">
         <firstname>PAWARIT</firstname>
         <lastname>SAMRIANG</lastname>
-        <gender>Male</gender>
         <email>pawarit.samriang@gmail.com</email>
         <university>
             <name>King Mongkut's University of Technology Thonburi</name>
@@ -11,10 +10,9 @@
         </university>
     </student>
 
-    <student id="66130500007">
+    <student id="66130500007" gender="Male">
         <firstname>KITTIKAN</firstname>
         <lastname>WEELMEK</lastname>
-        <gender>Male</gender>
         <email>rkviewkungz@gmail.com</email>
         <university>
             <name>King Mongkut's University of Technology Thonburi</name>

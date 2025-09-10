@@ -1,0 +1,17 @@
+<restaurant>
+    <menu>
+        <dish id="d1" name="Pizza" price="250" />
+        <dish id="d2" name="Pasta" price="180" />
+        <dish id="d3" name="Salad" price="120" />
+    </menu>
+
+    <orders>
+        <order id="o1" customer="Alice">
+            <item dish="d1" quantity="2" />
+            <item dish="d2" quantity="1" />
+        </order>
+        <order id="o2" customer="Bob">
+            <item dish="d3" quantity="3" />
+        </order>
+    </orders>
+</restaurant>

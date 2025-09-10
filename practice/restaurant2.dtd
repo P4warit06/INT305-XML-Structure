@@ -1,0 +1,17 @@
+<!ELEMENT restaurant (menu ,orders)>
+<!ELEMENT menu (dish+)>
+<!ELEMENT dish EMPTY>
+<!ATTLIST dish id ID #REQUIRED
+name CDATA #REQUIRED
+price NMTOKEN #REQUIRED
+>
+<!ELEMENT orders (order+)>
+<!ELEMENT order (item+)>
+<!ATTLIST order id ID #REQUIRED
+customer CDATA #REQUIRED
+> 
+<!ELEMENT item EMPTY>
+<!ATTLIST item 
+    dish IDREF #REQUIRED
+    quantity NMTOKEN #REQUIRED
+>
